@@ -1,2 +1,2 @@
 #!/bin/bash
-chown bin vicent.bin staff
+chown vicnent:staff
