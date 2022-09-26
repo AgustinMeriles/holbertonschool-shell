@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{ print $1}' /var/log/http/access_log | sort | uniq -c | sort -nr | head -n 10
+ | sort -k1 | uniq -c | sort -rnk | head -n 11 | cut -d ' ' -f -1 | rev
